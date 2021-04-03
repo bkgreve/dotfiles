@@ -5,6 +5,8 @@
 # - Make the caps lock key a control key
 # - Set the super key (Windows key) as my mod key
 # - Lock the screen (i3lock) after 10 min inactivity
+
+# NOTE! On some systems, disabling input 12 might disable the keyboad....
 exec --no-startup-id xinput disable 12
 exec setxkbmap -option "ctrl:nocaps"
 set $mod Mod4
